@@ -691,14 +691,14 @@ div{
 @keyframes moverflecha{
 	25%{
 		left: -15px;
-		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
 	}
 	65%{
 		left: -15px;
-		transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
 	}
 	90%{
-		transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
 	}
 }
 
